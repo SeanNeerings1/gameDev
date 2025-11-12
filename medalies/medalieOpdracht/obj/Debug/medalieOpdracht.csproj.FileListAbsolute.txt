@@ -1,0 +1,8 @@
+C:\Users\seann\Downloads\school\gameDev\medalies\medalieOpdracht\bin\Debug\medalieOpdracht.exe.config
+C:\Users\seann\Downloads\school\gameDev\medalies\medalieOpdracht\bin\Debug\medalieOpdracht.exe
+C:\Users\seann\Downloads\school\gameDev\medalies\medalieOpdracht\bin\Debug\medalieOpdracht.pdb
+C:\Users\seann\Downloads\school\gameDev\medalies\medalieOpdracht\obj\Debug\medalieOpdracht.csproj.AssemblyReference.cache
+C:\Users\seann\Downloads\school\gameDev\medalies\medalieOpdracht\obj\Debug\medalieOpdracht.csproj.CoreCompileInputs.cache
+C:\Users\seann\Downloads\school\gameDev\medalies\medalieOpdracht\obj\Debug\medalieOpdracht.exe
+C:\Users\seann\Downloads\school\gameDev\medalies\medalieOpdracht\obj\Debug\medalieOpdracht.pdb
+C:\Users\seann\Downloads\school\gameDev\medalies\medalieOpdracht\obj\Debug\medalieOpdracht.exe.config
