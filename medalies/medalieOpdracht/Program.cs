@@ -10,11 +10,17 @@ namespace medalieOpdracht
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Wat is jouw naam?");
-            string naam = Console.ReadLine();
-            Console.WriteLine("wat is jouw leeftijd");
-            String leeftijd = Console.ReadLine();
-            Console.WriteLine("hoi "  + naam + ", je bent " + leeftijd + " jaar oud!");
+            //opdracht 1
+            //opdracht1 test = new opdracht1();
+            //test.Start();
+
+            //opdracht 2
+            opdracht2 test1 = new opdracht2();
+            test1.Start();
+
+            //opdracht 3
+            //opdracht3 test2 = new opdracht3();
+            //test2.Start();
         }
     }
 }
