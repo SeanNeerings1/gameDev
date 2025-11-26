@@ -15,12 +15,15 @@ namespace medalieOpdracht
             //test.Start();
 
             //opdracht 2
-            opdracht2 test1 = new opdracht2();
-            test1.Start();
+            //opdracht2 test1 = new opdracht2();
+            //test1.Start();
 
             //opdracht 3
             //opdracht3 test2 = new opdracht3();
             //test2.Start();
+
+            loops test1 = new loops();
+            test1.Start();
         }
     }
-}
+    }

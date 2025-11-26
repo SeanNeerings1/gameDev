@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\seann\\Downloads\\school\\gameDev\\medalies\\medalieOpdracht\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E46483A2-B1E4-4D7F-910C-64612F62F16D}|medalieOpdracht.csproj|C:\\Users\\seann\\Downloads\\school\\gameDev\\medalies\\medalieOpdracht\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E46483A2-B1E4-4D7F-910C-64612F62F16D}|medalieOpdracht.csproj|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E46483A2-B1E4-4D7F-910C-64612F62F16D}|medalieOpdracht.csproj|c:\\users\\seann\\downloads\\school\\gamedev\\medalies\\medalieopdracht\\loops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E46483A2-B1E4-4D7F-910C-64612F62F16D}|medalieOpdracht.csproj|solutionrelative:loops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E46483A2-B1E4-4D7F-910C-64612F62F16D}|medalieOpdracht.csproj|C:\\Users\\seann\\Downloads\\school\\gameDev\\medalies\\medalieOpdracht\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E46483A2-B1E4-4D7F-910C-64612F62F16D}|medalieOpdracht.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E46483A2-B1E4-4D7F-910C-64612F62F16D}|medalieOpdracht.csproj|c:\\users\\seann\\downloads\\school\\gamedev\\medalies\\medalieopdracht\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E46483A2-B1E4-4D7F-910C-64612F62F16D}|medalieOpdracht.csproj|solutionrelative:test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E46483A2-B1E4-4D7F-910C-64612F62F16D}|medalieOpdracht.csproj|C:\\Users\\seann\\Downloads\\school\\gameDev\\medalies\\medalieOpdracht\\opdracht2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E46483A2-B1E4-4D7F-910C-64612F62F16D}|medalieOpdracht.csproj|solutionrelative:opdracht2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E46483A2-B1E4-4D7F-910C-64612F62F16D}|medalieOpdracht.csproj|c:\\users\\seann\\downloads\\school\\gamedev\\medalies\\medalieopdracht\\opdracht3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E46483A2-B1E4-4D7F-910C-64612F62F16D}|medalieOpdracht.csproj|solutionrelative:opdracht3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E46483A2-B1E4-4D7F-910C-64612F62F16D}|medalieOpdracht.csproj|C:\\Users\\seann\\Downloads\\school\\gameDev\\medalies\\medalieOpdracht\\opdracht1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E46483A2-B1E4-4D7F-910C-64612F62F16D}|medalieOpdracht.csproj|solutionrelative:opdracht1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E46483A2-B1E4-4D7F-910C-64612F62F16D}|medalieOpdracht.csproj|c:\\users\\seann\\downloads\\school\\gamedev\\medalies\\medalieopdracht\\opdracht1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E46483A2-B1E4-4D7F-910C-64612F62F16D}|medalieOpdracht.csproj|solutionrelative:opdracht1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E46483A2-B1E4-4D7F-910C-64612F62F16D}|medalieOpdracht.csproj|C:\\Users\\seann\\Downloads\\school\\gameDev\\medalies\\medalieOpdracht\\opdracht3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E46483A2-B1E4-4D7F-910C-64612F62F16D}|medalieOpdracht.csproj|solutionrelative:opdracht3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,30 +34,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "loops.cs",
+              "DocumentMoniker": "C:\\Users\\seann\\Downloads\\school\\gameDev\\medalies\\medalieOpdracht\\loops.cs",
+              "RelativeDocumentMoniker": "loops.cs",
+              "ToolTip": "C:\\Users\\seann\\Downloads\\school\\gameDev\\medalies\\medalieOpdracht\\loops.cs*",
+              "RelativeToolTip": "loops.cs*",
+              "ViewState": "AgIAABcAAAAAAAAAAAAUwC4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T08:28:45.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "test.cs",
+              "DocumentMoniker": "C:\\Users\\seann\\Downloads\\school\\gameDev\\medalies\\medalieOpdracht\\test.cs",
+              "RelativeDocumentMoniker": "test.cs",
+              "ToolTip": "C:\\Users\\seann\\Downloads\\school\\gameDev\\medalies\\medalieOpdracht\\test.cs",
+              "RelativeToolTip": "test.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T10:04:55.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "opdracht2.cs",
+              "DocumentMoniker": "C:\\Users\\seann\\Downloads\\school\\gameDev\\medalies\\medalieOpdracht\\opdracht2.cs",
+              "RelativeDocumentMoniker": "opdracht2.cs",
+              "ToolTip": "C:\\Users\\seann\\Downloads\\school\\gameDev\\medalies\\medalieOpdracht\\opdracht2.cs",
+              "RelativeToolTip": "opdracht2.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T10:20:31.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "opdracht3.cs",
               "DocumentMoniker": "C:\\Users\\seann\\Downloads\\school\\gameDev\\medalies\\medalieOpdracht\\opdracht3.cs",
               "RelativeDocumentMoniker": "opdracht3.cs",
               "ToolTip": "C:\\Users\\seann\\Downloads\\school\\gameDev\\medalies\\medalieOpdracht\\opdracht3.cs",
               "RelativeToolTip": "opdracht3.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAmwAoAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T10:44:50.6Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "opdracht1.cs",
               "DocumentMoniker": "C:\\Users\\seann\\Downloads\\school\\gameDev\\medalies\\medalieOpdracht\\opdracht1.cs",
               "RelativeDocumentMoniker": "opdracht1.cs",
               "ToolTip": "C:\\Users\\seann\\Downloads\\school\\gameDev\\medalies\\medalieOpdracht\\opdracht1.cs",
               "RelativeToolTip": "opdracht1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-12T10:40:24.238Z",
               "EditorCaption": ""
@@ -57,25 +104,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "opdracht2.cs",
-              "DocumentMoniker": "C:\\Users\\seann\\Downloads\\school\\gameDev\\medalies\\medalieOpdracht\\opdracht2.cs",
-              "RelativeDocumentMoniker": "opdracht2.cs",
-              "ToolTip": "C:\\Users\\seann\\Downloads\\school\\gameDev\\medalies\\medalieOpdracht\\opdracht2.cs",
-              "RelativeToolTip": "opdracht2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T10:20:31.042Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\seann\\Downloads\\school\\gameDev\\medalies\\medalieOpdracht\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\seann\\Downloads\\school\\gameDev\\medalies\\medalieOpdracht\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-12T08:41:09.623Z",
               "EditorCaption": ""

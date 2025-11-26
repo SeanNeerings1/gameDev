@@ -1,125 +1,80 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace medalieOpdracht
 {
     internal class opdracht2
     {
+        private readonly Dictionary<string, string[]> Rooms =
+            new Dictionary<string, string[]>
+            {
+                { "woonkamer", new[] { "gang", "keuken", "trapkast" } },
+                { "gang",      new[] { "woonkamer", "trap", "wc" } },
+                { "keuken",    new[] { "woonkamer", "buiten" } },
+                { "trapkast",  new[] { "woonkamer" } },
+                { "trap",      new[] { "gang", "bovengang" } },
+                { "wc",        new[] { "gang" } },
+                { "bovengang", Array.Empty<string>() },
+                { "buiten",    Array.Empty<string>() }
+            };
+
         public void Start()
         {
-
             Console.WriteLine("ontsnap het huis");
-            Console.WriteLine("welke kamer wil je betreden?");
-            Console.WriteLine("woonkamer,gang,keuken");
-            string eersteKamer = Console.ReadLine();
-            if (eersteKamer == "woonkamer")
-            {
-                Console.WriteLine("je bent nu in de woonkamer");
-                Console.WriteLine("welke kamer wil je nu betreden?");
-                Console.WriteLine("gang, keuken, trapkast");
 
-            }
-            else if (eersteKamer == "gang")
+            string CurrentRoom = AskRoom(
+                "welke kamer wil je betreden?",
+                new[] { "woonkamer", "gang", "keuken" }
+            );
+
+            int steps = 1;
+
+            while (steps < 3 && CurrentRoom != "buiten")
             {
-                Console.WriteLine("je bent nu in de gang");
-                Console.WriteLine("welke kamer wil je nu betreden?");
-                Console.WriteLine("woonkamer, trap, wc");
-            }
-            else if (eersteKamer == "keuken")
-            {
-                Console.WriteLine("je bent nu in de keuken");
-                Console.WriteLine("welke kamer wil je nu betreden?");
-                Console.WriteLine("woonkamer, buiten");
+                Console.WriteLine($"je bent nu in de {CurrentRoom}");
+
+                if (!Rooms.ContainsKey(CurrentRoom) ||
+                    Rooms[CurrentRoom].Length == 0)
+                {
+                    break;
+                }
+
+                string[] PossibleRooms = Rooms[CurrentRoom];
+
+                CurrentRoom = AskRoom(
+                    "welke kamer wil je nu betreden?",
+                    PossibleRooms
+                );
+
+                steps++;
             }
 
-            string tweedeKamer = Console.ReadLine();
-            if (tweedeKamer == "woonkamer")
-            {
-                Console.WriteLine("je bent nu in de woonkamer");
-                Console.WriteLine("welke kamer wil je nu betreden?");
-                Console.WriteLine("gang, keuken, trapkast");
-
-            }
-            else if (tweedeKamer == "gang")
-            {
-                Console.WriteLine("je bent nu in de gang");
-                Console.WriteLine("welke kamer wil je nu betreden?");
-                Console.WriteLine("woonkamer, trap, wc");
-            }
-            else if (tweedeKamer == "keuken")
-            {
-                Console.WriteLine("je bent nu in de keuken");
-                Console.WriteLine("welke kamer wil je nu betreden?");
-                Console.WriteLine("woonkamer, buiten");
-            }
-            else if (tweedeKamer == "trapkast")
-            {
-                Console.WriteLine("je bent nu in de trapkast");
-                Console.WriteLine("welke kamer wil je nu betreden?");
-                Console.WriteLine("woonkamer");
-            }
-            else if (tweedeKamer == "trap")
-            {
-                Console.WriteLine("je bent nu op de trap");
-                Console.WriteLine("welke kamer wil je nu betreden?");
-                Console.WriteLine("gang,bovengang");
-            }
-            else if (tweedeKamer == "wc")
-            {
-                Console.WriteLine("je bent nu in de wc");
-                Console.WriteLine("ga terug naar de gang");
-            }
-            else if (tweedeKamer == "buiten")
+            if (CurrentRoom == "buiten")
             {
                 Console.WriteLine("je bent buiten!");
                 Console.WriteLine("je hebt gewonnen!");
             }
+            else
+            {
+                Console.WriteLine($"je bent nu in de {CurrentRoom}");
+                Console.WriteLine("je hebt verloren!");
+            }
+        }
+        private string AskRoom(string vraag, string[] LegalRoom)
+        {
+            Console.WriteLine(vraag);
+            Console.WriteLine(string.Join(", ", LegalRoom));
 
-            string derdeKamer = Console.ReadLine();
-            if (derdeKamer == "woonkamer")
-            {
-                Console.WriteLine("je bent nu in de woonkamer");
-                Console.WriteLine("je hebt verloren!");
+            string input = Console.ReadLine();
 
-            }
-            else if (derdeKamer == "gang")
+            while (!LegalRoom.Contains(input))
             {
-                Console.WriteLine("je bent nu in de gang");
-                Console.WriteLine("je hebt verloren!"); ;
+                Console.WriteLine("Kies een geldige kamer: " + string.Join(", ", LegalRoom));
+                input = Console.ReadLine();
             }
-            else if (derdeKamer == "keuken")
-            {
-                Console.WriteLine("je bent nu in de keuken");
-                Console.WriteLine("je hebt verloren!");
-            }
-            else if (derdeKamer == "trapkast")
-            {
-                Console.WriteLine("je bent nu in de trapkast");
-                Console.WriteLine("je hebt verloren!");
-            }
-            else if (derdeKamer == "trap")
-            {
-                Console.WriteLine("je bent nu op de trap");
-                Console.WriteLine("je hebt verloren!");
-            }
-            else if (derdeKamer == "wc")
-            {
-                Console.WriteLine("je bent nu in de wc");
-                Console.WriteLine("je hebt verloren!");
-            }
-            else if (derdeKamer == "buiten")
-            {
-                Console.WriteLine("je bent buiten!");
-                Console.WriteLine("je hebt gewonnen!");
-            }
-            else if (derdeKamer == "bovengang")
-            {
-                Console.WriteLine("je bent nu in de bovengang");
-                Console.WriteLine("je hebt verloren!");
-            }
+
+            return input;
         }
     }
 }
