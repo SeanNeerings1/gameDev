@@ -20,7 +20,11 @@ namespace medalieOpdracht
             };
 
         public void Start()
+
         {
+            Console.WriteLine(Rooms["woonkamer"]);
+
+
             Console.WriteLine("ontsnap het huis");
 
             string CurrentRoom = AskRoom(

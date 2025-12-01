@@ -8,6 +8,12 @@ namespace medalieOpdracht
 {
     internal class Program
     {
+        private static string _name = "Sean";
+        private static string _lastName = "neerings";
+        private static int _age = 19;
+
+
+
         static void Main(string[] args)
         {
             //opdracht 1
@@ -22,8 +28,21 @@ namespace medalieOpdracht
             //opdracht3 test2 = new opdracht3();
             //test2.Start();
 
-            loops test1 = new loops();
+            //loops test1 = new loops();
+            //test1.Start();
+
+            //opdracht 2.5
+            Dictionary_opdracht test1 = new Dictionary_opdracht();
             test1.Start();
+
+
+            //Student sean = new Student(_name, _age, _lastName);
+            //Student rayvano = new Student("rayvano", 21, "jemoeder");
+
+            //    sean.Student_description();
+            //    rayvano.Student_description();
+
         }
+
     }
     }
