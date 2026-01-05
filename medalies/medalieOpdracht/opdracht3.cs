@@ -10,21 +10,51 @@ namespace medalieOpdracht
     {
         public void Start()
         {
-            Console.WriteLine("Wat voor weer is het vandaag");
-            Console.WriteLine("Zonnig, Regen, Bewolkt");
-            string Weer = Console.ReadLine();
-            if(Weer == "Zonnig")
+            Console.Write("Wat voor weer is het vandaag? (Zonnig / Regen / Bewolkt): ");
+            string inputWeer = Console.ReadLine();
+            if (string.IsNullOrWhiteSpace(inputWeer))
             {
-                Console.WriteLine("Het is zonnig hoeveel graaden is het?");
+                Console.WriteLine("Onbekende invoer voor het weer.");
+                return;
             }
-            if (Weer == "Regen")
+
+            string weer = inputWeer.Trim().ToLowerInvariant();
+
+            if (weer != "zonnig" && weer != "regen" && weer != "bewolkt")
             {
-                Console.WriteLine("Het regent hoeveel graaden is?");
+                Console.WriteLine("Onbekende keuze voor 'weer'. Gebruik: Zonnig, Regen of Bewolkt.");
+                return;
             }
-            if (Weer == "Bewolkt")
+
+            Console.Write("Wat is de temperatuur in graden Celsius? ");
+            string tempInput = Console.ReadLine();
+            if (!double.TryParse(tempInput, out double temperatuur))
             {
-                Console.WriteLine("Het is bewolkt hoeveel graaden is?");
+                Console.WriteLine("Ongeldige temperatuur. Gebruik alleen getallen (bijv. 18.5).");
+                return;
+            }
+
+                if (weer == "zonnig")
+                {
+                    if (temperatuur >= 20)
+                        Console.WriteLine("Je hebt geen jas nodig vandaag — geniet van de zon!");
+                    else
+                        Console.WriteLine("Het is fris maar zonnig — een jas is verstandig, maar zonnebrand kan alsnog!");
+                }
+                else if (weer == "regen")
+                {
+                    if (temperatuur >= 15)
+                        Console.WriteLine("Het regent, maar het is warm genoeg. Neem een paraplu mee!");
+                    else
+                        Console.WriteLine("Regen én koud… draag warme kleding en vergeet je paraplu niet!");
+                }
+                else 
+                {
+                    if (temperatuur >= 17)
+                        Console.WriteLine("Bewolkt maar aangenaam — neem voor de zekerheid een trui mee!");
+                    else
+                        Console.WriteLine("Bewolkt en fris — trek iets warms aan.");
+                }
             }
         }
     }
-}

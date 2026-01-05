@@ -49,6 +49,8 @@
     <Compile Include="opdracht1.cs" />
     <Compile Include="opdracht2.cs" />
     <Compile Include="opdracht3.cs" />
+    <Compile Include="Opdracht4.cs" />
+    <Compile Include="Opdracht5.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Student.cs" />

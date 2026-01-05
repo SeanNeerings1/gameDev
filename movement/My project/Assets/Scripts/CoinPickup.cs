@@ -1,14 +1,21 @@
 using UnityEngine;
+using TMPro;
 
 public class CoinPickup : MonoBehaviour
 {
-    public int value = 1;
+    [SerializeField] private string _cointag = "Coin";
+    [SerializeField] private int value = 1;
+    [SerializeField] private TextMeshProUGUI scoreText;
+
+    private int score = 0;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.gameObject.CompareTag(_cointag))
         {
-            Destroy(gameObject);
+            score += value;
+            scoreText.text = "Coins: " + score;
+            Destroy(other.gameObject);
         }
     }
 }
