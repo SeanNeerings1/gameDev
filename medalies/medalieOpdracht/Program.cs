@@ -54,16 +54,28 @@ namespace medalieOpdracht
             //test1.Start();
 
 
-            List<Character> CharacterList = new List<Character>()
+            //List<Character> CharacterList = new List<Character>()
+            //{
+            //    new Character("Sean", 20),
+            //    new Character("rayvano", 21)
+            //};
+
+
+            //foreach (Character character in CharacterList)
+            //{
+            //    character.printCharacterInfo();
+            //}
+
+            List<Opdracht9> WeaponList = new List<Opdracht9>()
             {
-                new Character("Sean", 20),
-                new Character("rayvano", 21)
+                new Opdracht9("Silvere prikker", 5),
+                new Opdracht9("Goude prikker", 10)
             };
 
 
-            foreach (Character character in CharacterList)
+            foreach (Opdracht9 weapon in WeaponList)
             {
-                character.printCharacterInfo();
+                weapon.printWeaponInfo();
             }
 
 
@@ -76,12 +88,12 @@ namespace medalieOpdracht
             //carList.Add(car2);
 
 
-                //foreach (Car car in carList)
-                //{
-                //    car.printCarInfo();
-                //}
+            //foreach (Car car in carList)
+            //{
+            //    car.printCarInfo();
+            //}
 
         }
 
     }
-    }
+}
