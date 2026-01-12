@@ -47,6 +47,7 @@
     <Compile Include="Character.cs" />
     <Compile Include="dictionary_opdracht.cs" />
     <Compile Include="loops.cs" />
+    <Compile Include="Opdracht8.cs" />
     <Compile Include="opdracht1.cs" />
     <Compile Include="opdracht2.cs" />
     <Compile Include="opdracht3.cs" />

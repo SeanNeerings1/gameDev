@@ -42,8 +42,8 @@ namespace medalieOpdracht
             //test2.Start();
 
             //opdracht7
-            Opdracht7 test2 = new Opdracht7();
-            test2.Start();
+            //Opdracht7 test2 = new Opdracht7();
+            //test2.Start();
 
 
             //loops test1 = new loops();
@@ -54,11 +54,19 @@ namespace medalieOpdracht
             //test1.Start();
 
 
-            //Student sean = new Student(_name, _age, _lastName);
-            //Student rayvano = new Student("rayvano", 21, "jemoeder");
+            List<Character> CharacterList = new List<Character>()
+            {
+                new Character("Sean", 20),
+                new Character("rayvano", 21)
+            };
 
-            //    sean.Student_description();
-            //    rayvano.Student_description();
+
+            foreach (Character character in CharacterList)
+            {
+                character.printCharacterInfo();
+            }
+
+
 
 
             //List<Car> carList = new List<Car>();
@@ -68,10 +76,10 @@ namespace medalieOpdracht
             //carList.Add(car2);
 
 
-            //foreach (Car car in carList)
-            //{
-            //    car.printCarInfo();
-            //}
+                //foreach (Car car in carList)
+                //{
+                //    car.printCarInfo();
+                //}
 
         }
 
