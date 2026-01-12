@@ -10,14 +10,16 @@ namespace medalieOpdracht
     {
         private string _name;
         private int _lvl;
-        public Character(string name, int lvl)
+        private int _hp;
+        public Character(string name, int lvl, int hp)
         {
             _name = name;
             _lvl = lvl;
+            _hp = hp;
         }
         public void printCharacterInfo()
         {
-            Console.WriteLine($"dit is een player met de naam: {_name} en hij is lvl {_lvl} ");
+            Console.WriteLine($"dit is een player met de naam: {_name} en hij is lvl {_lvl} en hij heeft {_hp} levens punten");
 
         }
     }

@@ -54,29 +54,31 @@ namespace medalieOpdracht
             //test1.Start();
 
 
-            //List<Character> CharacterList = new List<Character>()
-            //{
-            //    new Character("Sean", 20),
-            //    new Character("rayvano", 21)
-            //};
-
-
-            //foreach (Character character in CharacterList)
-            //{
-            //    character.printCharacterInfo();
-            //}
-
-            List<Opdracht9> WeaponList = new List<Opdracht9>()
+            List<Character> CharacterList = new List<Character>()
             {
-                new Opdracht9("Silvere prikker", 5),
-                new Opdracht9("Goude prikker", 10)
+                new Character("Sean", 20, 3),
+                new Character("rayvano", 21, 2),
+                new Character("micheal", 16, 1)
+
             };
 
 
-            foreach (Opdracht9 weapon in WeaponList)
+            foreach (Character character in CharacterList)
             {
-                weapon.printWeaponInfo();
+                character.printCharacterInfo();
             }
+
+            //List<Opdracht9> WeaponList = new List<Opdracht9>()
+            //{
+            //    new Opdracht9("Silvere prikker", 5),
+            //    new Opdracht9("Goude prikker", 10)
+            //};
+
+
+            //foreach (Opdracht9 weapon in WeaponList)
+            //{
+            //    weapon.printWeaponInfo();
+            //}
 
 
 

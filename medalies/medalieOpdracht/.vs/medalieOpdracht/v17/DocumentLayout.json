@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\seann\\Downloads\\school\\gameDev\\medalies\\medalieOpdracht\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E46483A2-B1E4-4D7F-910C-64612F62F16D}|medalieOpdracht.csproj|C:\\Users\\seann\\Downloads\\school\\gameDev\\medalies\\medalieOpdracht\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E46483A2-B1E4-4D7F-910C-64612F62F16D}|medalieOpdracht.csproj|c:\\users\\seann\\downloads\\school\\gamedev\\medalies\\medalieopdracht\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E46483A2-B1E4-4D7F-910C-64612F62F16D}|medalieOpdracht.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E46483A2-B1E4-4D7F-910C-64612F62F16D}|medalieOpdracht.csproj|c:\\users\\seann\\downloads\\school\\gamedev\\medalies\\medalieopdracht\\opdracht9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E46483A2-B1E4-4D7F-910C-64612F62F16D}|medalieOpdracht.csproj|C:\\Users\\seann\\Downloads\\school\\gameDev\\medalies\\medalieOpdracht\\opdracht8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E46483A2-B1E4-4D7F-910C-64612F62F16D}|medalieOpdracht.csproj|solutionrelative:opdracht8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E46483A2-B1E4-4D7F-910C-64612F62F16D}|medalieOpdracht.csproj|C:\\Users\\seann\\Downloads\\school\\gameDev\\medalies\\medalieOpdracht\\opdracht4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E46483A2-B1E4-4D7F-910C-64612F62F16D}|medalieOpdracht.csproj|solutionrelative:opdracht4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E46483A2-B1E4-4D7F-910C-64612F62F16D}|medalieOpdracht.csproj|C:\\Users\\seann\\Downloads\\school\\gameDev\\medalies\\medalieOpdracht\\opdracht9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E46483A2-B1E4-4D7F-910C-64612F62F16D}|medalieOpdracht.csproj|solutionrelative:opdracht9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E46483A2-B1E4-4D7F-910C-64612F62F16D}|medalieOpdracht.csproj|C:\\Users\\seann\\Downloads\\school\\gameDev\\medalies\\medalieOpdracht\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E46483A2-B1E4-4D7F-910C-64612F62F16D}|medalieOpdracht.csproj|solutionrelative:student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E46483A2-B1E4-4D7F-910C-64612F62F16D}|medalieOpdracht.csproj|c:\\users\\seann\\downloads\\school\\gamedev\\medalies\\medalieopdracht\\opdracht8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E46483A2-B1E4-4D7F-910C-64612F62F16D}|medalieOpdracht.csproj|solutionrelative:opdracht8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E46483A2-B1E4-4D7F-910C-64612F62F16D}|medalieOpdracht.csproj|C:\\Users\\seann\\Downloads\\school\\gameDev\\medalies\\medalieOpdracht\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E46483A2-B1E4-4D7F-910C-64612F62F16D}|medalieOpdracht.csproj|C:\\Users\\seann\\Downloads\\school\\gameDev\\medalies\\medalieOpdracht\\opdracht7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E46483A2-B1E4-4D7F-910C-64612F62F16D}|medalieOpdracht.csproj|solutionrelative:opdracht7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E46483A2-B1E4-4D7F-910C-64612F62F16D}|medalieOpdracht.csproj|C:\\Users\\seann\\Downloads\\school\\gameDev\\medalies\\medalieOpdracht\\opdracht4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E46483A2-B1E4-4D7F-910C-64612F62F16D}|medalieOpdracht.csproj|solutionrelative:opdracht4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E46483A2-B1E4-4D7F-910C-64612F62F16D}|medalieOpdracht.csproj|C:\\Users\\seann\\Downloads\\school\\gameDev\\medalies\\medalieOpdracht\\opdracht5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,7 +78,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Opdracht9.cs",
               "DocumentMoniker": "C:\\Users\\seann\\Downloads\\school\\gameDev\\medalies\\medalieOpdracht\\Opdracht9.cs",
               "RelativeDocumentMoniker": "Opdracht9.cs",
@@ -91,20 +91,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Opdracht8.cs",
               "DocumentMoniker": "C:\\Users\\seann\\Downloads\\school\\gameDev\\medalies\\medalieOpdracht\\Opdracht8.cs",
               "RelativeDocumentMoniker": "Opdracht8.cs",
               "ToolTip": "C:\\Users\\seann\\Downloads\\school\\gameDev\\medalies\\medalieOpdracht\\Opdracht8.cs",
               "RelativeToolTip": "Opdracht8.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAB8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-12T10:01:42.717Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Opdracht7.cs",
               "DocumentMoniker": "C:\\Users\\seann\\Downloads\\school\\gameDev\\medalies\\medalieOpdracht\\Opdracht7.cs",
               "RelativeDocumentMoniker": "Opdracht7.cs",
@@ -146,26 +146,27 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\seann\\Downloads\\school\\gameDev\\medalies\\medalieOpdracht\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAAAEYAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAADsAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-12T08:41:09.623Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "Opdracht4.cs",
               "DocumentMoniker": "C:\\Users\\seann\\Downloads\\school\\gameDev\\medalies\\medalieOpdracht\\Opdracht4.cs",
               "RelativeDocumentMoniker": "Opdracht4.cs",
               "ToolTip": "C:\\Users\\seann\\Downloads\\school\\gameDev\\medalies\\medalieOpdracht\\Opdracht4.cs",
               "RelativeToolTip": "Opdracht4.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T08:15:43.69Z"
+              "WhenOpened": "2025-12-04T08:15:43.69Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\seann\\Downloads\\school\\gameDev\\medalies\\medalieOpdracht\\Student.cs",
               "RelativeDocumentMoniker": "Student.cs",
@@ -173,12 +174,11 @@
               "RelativeToolTip": "Student.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAcwBoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T10:39:20.465Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T10:39:20.465Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Car.cs",
               "DocumentMoniker": "C:\\Users\\seann\\Downloads\\school\\gameDev\\medalies\\medalieOpdracht\\Car.cs",
               "RelativeDocumentMoniker": "Car.cs",
@@ -190,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Character.cs",
               "DocumentMoniker": "C:\\Users\\seann\\Downloads\\school\\gameDev\\medalies\\medalieOpdracht\\Character.cs",
               "RelativeDocumentMoniker": "Character.cs",
