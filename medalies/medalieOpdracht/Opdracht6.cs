@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace medalieOpdracht
-{
+{L
     internal class Opdracht6
     {
         public void Start()
@@ -49,7 +49,8 @@ namespace medalieOpdracht
                 if (guess < guessTheNumber)
                 {
                     Console.WriteLine("hoger!");
-                }else if (guess > guessTheNumber)
+                }
+                else if (guess > guessTheNumber)
                 {
                     Console.WriteLine("lager");
                 }

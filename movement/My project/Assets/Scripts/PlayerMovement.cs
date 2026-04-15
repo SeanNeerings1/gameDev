@@ -10,6 +10,13 @@ public class PlayerMovement : MonoBehaviour
 
     Rigidbody2D rb;
 
+    public float GetSpeed() { return _moveSpeed; }
+
+    public void SetSpeed(float newSpeed)
+    {
+        _moveSpeed = newSpeed;
+    }
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
